@@ -34,8 +34,9 @@ public class PolicyHandler {
         System.out.println(
             "\n\n##### listener UpdateStatus : " + cookFinished + "\n\n"
         );
-        // Sample Logic //
 
+        // Sample Logic //
+        Order.updateStatus(event);
     }
 
     @StreamListener(
@@ -49,8 +50,9 @@ public class PolicyHandler {
         System.out.println(
             "\n\n##### listener UpdateStatus : " + foodPicked + "\n\n"
         );
-        // Sample Logic //
 
+        // Sample Logic //
+        Order.updateStatus(event);
     }
 
     @StreamListener(
@@ -64,8 +66,9 @@ public class PolicyHandler {
         System.out.println(
             "\n\n##### listener UpdateStatus : " + cookStarted + "\n\n"
         );
-        // Sample Logic //
 
+        // Sample Logic //
+        Order.updateStatus(event);
     }
 
     @StreamListener(
@@ -79,8 +82,9 @@ public class PolicyHandler {
         System.out.println(
             "\n\n##### listener UpdateStatus : " + deliveryConfirmed + "\n\n"
         );
-        // Sample Logic //
 
+        // Sample Logic //
+        Order.updateStatus(event);
     }
 
     @StreamListener(
@@ -94,8 +98,9 @@ public class PolicyHandler {
         System.out.println(
             "\n\n##### listener UpdateStatus : " + orderAccepted + "\n\n"
         );
-        // Sample Logic //
 
+        // Sample Logic //
+        Order.updateStatus(event);
     }
 
     @StreamListener(
@@ -109,8 +114,9 @@ public class PolicyHandler {
         System.out.println(
             "\n\n##### listener UpdateStatus : " + orderRejected + "\n\n"
         );
-        // Sample Logic //
 
+        // Sample Logic //
+        Order.updateStatus(event);
     }
 }
 //>>> Clean Arch / Inbound Adaptor
